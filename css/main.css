@@ -39,6 +39,10 @@ html {
     color:#333E48;
 }
 
+.bar {
+    margin: 0;
+}
+
 /* social media styles */
 .st0{
     fill:#232222;
@@ -50,6 +54,9 @@ html {
     transition: all 400ms ease-out;
     }
 
+.social {
+    max-width: 100px;
+    text-align: center;
 }
 
 /* social media styles end */
