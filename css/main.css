@@ -1,3 +1,5 @@
+/* template starts here */
+
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
@@ -31,3 +33,16 @@ html {
 }
 
 /* template ends here */
+
+/* social media styles */
+.st0{
+    fill:#232222;
+    }
+
+.st0:hover{
+    fill:#ACC6C9;
+    -webkit- transition: all 500ms ease-out; 
+    transition: all 200ms ease-out;
+    }
+
+/* social media styles end */
