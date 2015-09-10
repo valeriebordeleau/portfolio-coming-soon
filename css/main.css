@@ -13,6 +13,8 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -41,6 +43,12 @@ html {
 
 .bar {
     margin: 0;
+}
+
+.image {
+    background-image: url(../artwork/photo.jpg);
+    height: 500px;
+    background-position: center center;
 }
 
 /* social media styles */
