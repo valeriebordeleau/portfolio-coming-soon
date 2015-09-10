@@ -57,6 +57,7 @@ html {
 .social {
     max-width: 100px;
     text-align: center;
+    display: block;
 }
 
 /* social media styles end */
