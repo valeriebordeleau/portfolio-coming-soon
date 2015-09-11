@@ -59,12 +59,12 @@ body {
 /* social media styles */
 .st0{
     fill:#232222;
+    -webkit-transition: all 400ms ease-out; 
+    transition: all 400ms ease-out;
     }
 
 .st0:hover{
     fill:#ACC6C9;
-    -webkit-transition: all 400ms ease-out; 
-    transition: all 400ms ease-out;
     }
 
 .social {
