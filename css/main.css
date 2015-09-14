@@ -51,9 +51,11 @@ body {
 }
 
 .image {
-    background-image: url(../artwork/photo.jpg);
+    background-image: url(../artwork/notch.svg) ,url(../artwork/photo.jpg);
+    background-repeat: no-repeat,no-repeat;
+    background-size: 2em, auto;
     height: 500px;
-    background-position: center center;
+    background-position:center right, center center;
 }
 
 /* social media styles */
@@ -74,3 +76,16 @@ body {
 }
 
 /* social media styles end */
+
+/*media querries*/
+
+
+
+/*small*/@media only screen and (min-width: 25em) {
+}
+
+/*medium*/@media only screen and (min-width: 38em) {
+}
+
+/*large*/@media only screen and (min-width: 60em) {
+}
