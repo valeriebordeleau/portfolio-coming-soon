@@ -85,12 +85,21 @@ body {
 }
 
 /*medium*/@media only screen and (min-width: 38em) {
+    .l-screen-push {
+        position: absolute;
+        padding-top: 4em;
+    }
+    
     .image {
         background-position:center right, center center;
         background-image: url(../artwork/notch.svg) ,url(../artwork/photo.jpg);
         background-size: 2em, auto;
-}
+    }
 
+    .social-push {
+        padding-left: calc(50% - 75px);
+    }
+    
     
 }
 
