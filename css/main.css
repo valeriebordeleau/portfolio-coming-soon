@@ -51,11 +51,11 @@ body {
 }
 
 .image {
-    background-image: url(../artwork/notch.svg) ,url(../artwork/photo.jpg);
+    background-image: url(../artwork/notch-h.svg) ,url(../artwork/photo.jpg);
     background-repeat: no-repeat,no-repeat;
-    background-size: 2em, auto;
+    background-size: 3em, auto;
     height: 500px;
-    background-position:center right, center center;
+    background-position:bottom center, center center;
 }
 
 /* social media styles */
@@ -85,6 +85,13 @@ body {
 }
 
 /*medium*/@media only screen and (min-width: 38em) {
+    .image {
+        background-position:center right, center center;
+        background-image: url(../artwork/notch.svg) ,url(../artwork/photo.jpg);
+        background-size: 2em, auto;
+}
+
+    
 }
 
 /*large*/@media only screen and (min-width: 60em) {
