@@ -17,6 +17,10 @@ html {
     margin: 0;
 }
 
+.h1 {
+    font-weight: 600;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -101,7 +105,7 @@ body {
         background-size: 2em, auto;
     }
     
-    
+
 }
 
 /*large*/@media only screen and (min-width: 60em) {
