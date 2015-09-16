@@ -57,7 +57,7 @@ body {
 .image {
     background-image: url(../artwork/notch-h.svg) ,url(../artwork/photo.jpg);
     background-repeat: no-repeat,no-repeat;
-    background-size: 3em, auto;
+    background-size: 2em, auto;
     height: 500px;
     background-position:bottom center, center center;
 }
@@ -70,6 +70,16 @@ body {
     }
 
 .st0:hover{
+    fill:#ACC6C9;
+    }
+
+.st1{
+    fill:white;
+    -webkit-transition: all 400ms ease-out; 
+    transition: all 400ms ease-out;
+    }
+
+.st1:hover{
     fill:#ACC6C9;
     }
 
@@ -91,20 +101,36 @@ body {
 
 
 /*small*/@media only screen and (min-width: 25em) {
+    .disappear-sm {
+        display: none;
+    }
 }
 
 /*medium*/@media only screen and (min-width: 38em) {
+    .disappear-sm {
+        display: block;
+    }
+    
     .l-screen-push {
         position: absolute;
         padding-top: 4em;
     }
     
     .image {
-        background-position:center right, center center;
-        background-image: url(../artwork/notch.svg) ,url(../artwork/photo.jpg);
-        background-size: 2em, auto;
+        background-position:center right, bottom center, center center;
+        background-image: url(../artwork/notch.svg), url(../artwork/notch-h-b.svg), url(../artwork/photo.jpg);
+        background-size: 1em, 2em, auto;
     }
     
+    .disappear-l {
+        display: none;
+    }
+    
+    .colour-block-l {
+        background-color: #232222;
+        padding-bottom: 25vh;
+        color: white;
+    }
 
 }
 
