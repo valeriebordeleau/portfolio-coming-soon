@@ -89,6 +89,11 @@ body {
     display: block;
 }
 
+.social-2 {
+    max-width: 90px;
+    display:block;
+}
+
 .social-push {
         padding-top: .75em;
         padding-left: calc(50% - 170px);
@@ -128,7 +133,7 @@ body {
     
     .colour-block-l {
         background-color: #232222;
-        padding-bottom: 25vh;
+        padding-bottom: 2vh;
         color: white;
     }
 
