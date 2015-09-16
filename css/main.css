@@ -89,11 +89,6 @@ body {
     display: block;
 }
 
-.social-2 {
-    max-width: 90px;
-    display:block;
-}
-
 .social-push {
         padding-top: .75em;
         padding-left: calc(50% - 170px);
