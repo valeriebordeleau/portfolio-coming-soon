@@ -94,6 +94,11 @@ body {
         padding-left: calc(50% - 170px);
     }
 
+.disappear-sm {
+        display: block;
+    }
+
+
 /* social media styles end */
 
 /*media querries*/
@@ -101,15 +106,10 @@ body {
 
 
 /*small*/@media only screen and (min-width: 25em) {
-    .disappear-sm {
-        display: none;
-    }
+
 }
 
 /*medium*/@media only screen and (min-width: 38em) {
-    .disappear-sm {
-        display: block;
-    }
     
     .l-screen-push {
         position: absolute;
@@ -123,6 +123,10 @@ body {
         height: 500px;
     }
     
+    .disappear-sm {
+        display: block;
+    }
+    
     .disappear-l {
         display: none;
     }
@@ -131,6 +135,7 @@ body {
         background-color: #232222;
         padding-bottom: 20vh;
         color: white;
+        margin: 0;
     }
     
     .social-push {
