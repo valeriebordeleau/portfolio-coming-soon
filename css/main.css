@@ -106,6 +106,10 @@ body {
 
 
 /*small*/@media only screen and (min-width: 25em) {
+    .disappear-l {
+        display: none;
+    }
+    
 
 }
 
@@ -122,14 +126,7 @@ body {
         background-size: 1em, 2em, auto;
         height: 500px;
     }
-    
-    .disappear-sm {
-        display: block;
-    }
-    
-    .disappear-l {
-        display: none;
-    }
+
     
     .colour-block-l {
         background-color: #232222;
