@@ -63,24 +63,14 @@ body {
 }
 
 /* social media styles */
-.st0{
-    fill:#232222;
-    -webkit-transition: all 200ms ease-out; 
-    transition: all 200ms ease-out;
-    }
-
-.st0:hover{
-    fill:#ACC6C9;
-    }
-
 .st1{
-    fill:white;
+    fill:#ACC6C9;
     -webkit-transition: all 200ms ease-out; 
     transition: all 200ms ease-out;
     }
 
 .st1:hover{
-    fill:#ACC6C9;
+    fill:#333E48;
     }
 
 .social {
