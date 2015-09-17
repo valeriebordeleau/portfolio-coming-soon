@@ -58,15 +58,15 @@ body {
     background-image: url(../artwork/notch-h.svg) ,url(../artwork/photo.jpg);
     background-repeat: no-repeat,no-repeat;
     background-size: 2em, auto;
-    height: 500px;
+    height: 450px;
     background-position:bottom center, center center;
 }
 
 /* social media styles */
 .st0{
     fill:#232222;
-    -webkit-transition: all 400ms ease-out; 
-    transition: all 400ms ease-out;
+    -webkit-transition: all 200ms ease-out; 
+    transition: all 200ms ease-out;
     }
 
 .st0:hover{
@@ -75,8 +75,8 @@ body {
 
 .st1{
     fill:white;
-    -webkit-transition: all 400ms ease-out; 
-    transition: all 400ms ease-out;
+    -webkit-transition: all 200ms ease-out; 
+    transition: all 200ms ease-out;
     }
 
 .st1:hover{
@@ -120,6 +120,7 @@ body {
         background-position:center right, bottom center, center center;
         background-image: url(../artwork/notch.svg), url(../artwork/notch-h-b.svg), url(../artwork/photo.jpg);
         background-size: 1em, 2em, auto;
+        height: 500px;
     }
     
     .disappear-l {
@@ -128,8 +129,13 @@ body {
     
     .colour-block-l {
         background-color: #232222;
-        padding-bottom: 2vh;
+        padding-bottom: 20vh;
         color: white;
+    }
+    
+    .social-push {
+        padding-top: .75em;
+        padding-left: calc(50% +100px);
     }
 
 }
@@ -139,4 +145,5 @@ body {
         position: absolute;
         padding-top: 5em;
     }
+    
 }
