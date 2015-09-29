@@ -65,13 +65,13 @@ body {
 /* social media styles */
 .email {
     text-decoration: none;
-    color: #58595B;
+    color: black;
     -webkit-transition: all 200ms ease-out; 
     transition: all 200ms ease-out;
 }
 
 .email:hover {
-    color: #BCBEC0;
+    color: #ACC6C9;
 }
 
 .st1{
